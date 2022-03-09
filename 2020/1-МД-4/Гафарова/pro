@@ -1,0 +1,65 @@
+'''a = int(input("Vvedite a: "))
+b = int(input("Vvedite b: "))'''
+'''if a > b:
+    print (a+b)
+elif a == b:
+    print (a-b)
+else:
+    print(a*b)
+a = 3
+while a > 1:
+    print(a)
+    a -= 1
+s = {1, 4, 6, 8}
+print(s)
+print (sorted(s))
+d = {"a": "aa", "b": "bb"}
+print(d)
+for t in s:
+    print(t)
+for t in d:
+    print(t)
+print(d.keys())
+print(d.values())
+print(d.items())
+d.update({"t": 2})
+print(d)
+while
+    try:
+        int(input())
+    except ValueError:
+        print("Ошибка ввода")'''
+'''список'''
+a = [11, 12, 13, "qwerty"]
+a = a + [14]
+a.append(15)
+print(a)
+del a[3]
+print (a)
+'''словарь'''
+d = {'a':'aa', 'b':'bb'}
+d.update({'c':'cc'})
+d.pop('b')
+print(d)
+'''множества'''
+s = set(a)
+print(s)
+
+m = {7, 2, 3}
+m.add(4)
+m.remove(4)
+print(m)
+
+
+print(type(a))
+print(help(m))
+print(sorted(d))
+'''try:
+    a = int(input('a = '))
+    file = open("file.txt")
+else:
+    "Операции с файлом прошли успешно"
+finally:
+    file.close()'''
+
+print(a[1:4:2])

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59cd0e04-a36c-4df4-8251-8bd4316b959e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../1-МД-15/Агеев Олег/zd1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-МД-4/korostkina/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-МД-4/pythonProject10/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-МД-4/pythonProject11/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-МД-4/Акдодшоев Азатшо А/pythonProject1/images/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-МД-4/Акдодшоев Азатшо А/pythonProject2/ботнедоделан.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-МД-4/Акдодшоев Азатшо А/урок4/bottelegram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-МД-4/Фальшунова А.А/Новая папка/mainN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Галеева Мария/PyTeleBot/.idea/PyTeleBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Галеева Мария/PyTeleBot/.idea/PyTeleBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Галеева Мария/PyTeleBot/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Галеева Мария/PyTeleBot/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Галеева Мария/PyTeleBot/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Галеева Мария/PyTeleBot/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Петрушин1задача/Петрушин Алексей бот/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Петрушин1задача/Петрушин Алексей бот/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Селиверстова Серафима/PyTeleBot/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Селиверстова Серафима/PyTeleBot/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Селиверстова Серафима/PyTeleBot/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Селиверстова Серафима/PyTeleBot/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="25uyiB7wJU9w8h8LBJ73dwmK7h8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59cd0e04-a36c-4df4-8251-8bd4316b959e" name="Changes" comment="" />
+      <created>1646391391891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646391391891</updated>
+    </task>
+    <servers />
+  </component>
+</project>
