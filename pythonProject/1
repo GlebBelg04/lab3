@@ -1,0 +1,35 @@
+name = 'Alexan'
+age = 18
+print("my name is ", name, 'i am ', age)
+NAMEx5 = name*5
+nn=name+name+name+name+name
+print(NAMEx5,' ',nn)
+
+
+print('HI! what is ur name? how old are u?')
+user_name, user_age = input().split()
+print(user_age, user_name)
+print('mesto dlya shutkee pro vozrast')
+user_age = int(user_age)
+if user_age==11:
+    print('shutka1')
+elif user_age==77:
+    print("drugaya shutka")
+else:
+    print('shutka pro zavezhanie')
+print(user_name[1:-1], user_name[::-1])
+cnt=0
+u=''
+for i in user_name:
+    if cnt<5:
+        cnt+=1
+        u+=i
+
+print(u)
+
+print(user_name[-1:-4:-1])
+
+print(len(user_name))
+
+
+

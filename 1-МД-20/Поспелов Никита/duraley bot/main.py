@@ -51,6 +51,12 @@ def get_text_messages(message):
         bot.send_message(chat_id, text="Автор: стдуент группы 1-мд-20 Поспелов Никита ")
     else:
         bot.send_message(chat_id, text="Вас слышно... Ваше сообщение: " + ms_text)
+def get_text():
+    array_texts = []
+    req_anek = requests.get('https://www.azlyrics.com/lyrics/rexorangecounty/sunflower.html')
+    soup = bs4.BeautifulSoup(req_anek.text, "html.parser")
+    result_find = soup.select('body > div.container.main-page > div > div.col-xs-12.col-lg-8.text-center > div:nth-child(8)')
+    return result_find.getText().strip()
 
 
 # -----------------------------------------------------------------------
