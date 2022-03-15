@@ -3,7 +3,7 @@
 import telebot  # pyTelegramBotAPI	4.3.1
 from telebot import types
 
-bot = telebot.TeleBot('5149965447:AAF3z_oB2sM6Cch1scdWe5AV_aAV3bWmXiA1')  # Создаем экземпляр бота
+bot = telebot.TeleBot('5219888629:AAEt9CcJ5fyzZ7KF2dbsZNtNb5WzkNOeAc4')  # Создаем экземпляр бота
 
 # -----------------------------------------------------------------------
 # Функция, обрабатывающая команду /start
@@ -72,15 +72,3 @@ def get_text_messages(message):
 bot.polling(none_stop=True, interval=0) # Запускаем бота
 
 print()
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
