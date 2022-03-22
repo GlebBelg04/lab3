@@ -1,3 +1,5 @@
+import bs4
+import requests
 import telebot
 from telebot import types
 
