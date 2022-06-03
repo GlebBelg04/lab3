@@ -1,0 +1,16 @@
+B = 5
+print(B)
+a = 18
+print("Hello, my name is Bogdan, i am ", a, "years old")
+p = "Bogdan"*5
+print("What's ur name and how old r u?")
+n = input()
+x = int(input())
+if x <= 14:
+    print("Тебе 14 лет или меньше")
+else:
+    print("Тебе больше 14 лет")
+print(n[1:-1])
+print(n[::-1])
+print(n[:])
+print(n[0:3])

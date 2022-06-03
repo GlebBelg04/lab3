@@ -1,4 +1,4 @@
-
+import random
 import bs4
 import requests
 import telebot
@@ -47,7 +47,7 @@ def get_text_messages(message):
     elif ms_text == "Прислать текст песни":
         bot.send_message(chat_id, text="Она улетела, уехала или умерла\nЭтой ночью\nОна улетела, уехала или умерла\nНе знаю точно\nОна улетела, уехала или умерла\nТак будет проще\nОна лишь хотела тепла, но как спичка сгорела дотла\nВ моей личке последняя строчка")
     elif ms_text == "WEB-камера":
-        bot.send_message(chat_id, text="будет позже")
+        bot.send_message(chat_id, text=get_text())
     elif ms_text == "Управление":
         bot.send_message(chat_id, text="будет позже")
     elif ms_text == "Помощь" or ms_text == "/help":
@@ -55,8 +55,8 @@ def get_text_messages(message):
     else:
         bot.send_message(chat_id, text="Вас слышно... Ваше сообщение: " + ms_text)
 def get_text():
-    array_texts = []
-    req_anek = requests.get('https://www.azlyrics.com/lyrics/rexorangecounty/sunflower.html')
+    array_texts = ["https://www.azlyrics.com/lyrics/kidcudi/clevelandisthereason.html", "https://www.azlyrics.com/lyrics/kidcudi/heavenatnite.html", "https://www.azlyrics.com/lyrics/kidcudi/inmydreamscudderanthem.html", "https://www.azlyrics.com/lyrics/kidcudi/daynnitenightmare.html"]
+    req_anek = requests.get(random.choice(array_texts))
     soup = bs4.BeautifulSoup(req_anek.text, "html.parser")
     result_find = soup.select('body > div.container.main-page > div > div.col-xs-12.col-lg-8.text-center > div:nth-child(8)')
     return result_find.getText().strip()
