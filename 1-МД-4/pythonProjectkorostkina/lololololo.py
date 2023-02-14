@@ -31,9 +31,8 @@ def get_text_messages(message):
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         btn1 = types.KeyboardButton("Развлечения")
         btn2 = types.KeyboardButton("WEB-камера")
-        btn3 = types.KeyboardButton("Управление")
         back = types.KeyboardButton("Помощь")
-        markup.add(btn1, btn2, btn3, back)
+        markup.add(btn1, btn2, back)
         bot.send_message(chat_id, text="Вы в главном меню", reply_markup=markup)
 
     elif ms_text == "Развлечения":
@@ -61,9 +60,6 @@ def get_text_messages(message):
         bot.send_message(chat_id, 'Отправьте мне любое слово, и я найду его значение на Wikipedia')
         def handle_text(message):
             bot.send_message(message.chat_id, getwiki(message.text))
-
-    elif ms_text == "Управление":  # ...................................................................................
-        bot.send_message(chat_id, text="еще не готово...")
 
     elif ms_text == "Помощь" or ms_text == "/help":  # .................................................................
         bot.send_message(chat_id, "Автор: ")
